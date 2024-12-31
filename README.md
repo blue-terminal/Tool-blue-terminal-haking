@@ -1,3 +1,3 @@
   tool  blue terminal   haking
-⚠️⚠️Questo progetto è un prototipo destinato esclusivamente a scopi dimostrativi e di ricerca. Non è progettato per un uso produttivo e potrebbe contenere bug, vulnerabilità o altre imperfezioni. L'autore declina ogni responsabilità per danni diretti o indiretti causati dall'uso di questo software. L'utente è l'unico responsabile dell'uso che ne fa e delle conseguenze che ne derivano. ⚠ ️⛔)⚠ ️⛔)
+tool blue terminal haking ⚠️⚠️This project is a prototype intended for demonstration and research purposes only. It is not designed for production use and may contain bugs, vulnerabilities or other imperfections. The author declines all responsibility for direct or indirect damages caused by the use of this software. The user is solely responsible for the use he makes of it and the consequences that arise from it. ⚠ ️⛔)⚠ ️⛔)
 ![Cattura](https://github.com/user-attachments/assets/6f5cab02-66f0-4492-a370-95ff6f3fa3b1)
