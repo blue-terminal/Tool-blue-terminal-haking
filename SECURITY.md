@@ -10,7 +10,8 @@ currently being supported with security updates.
 | ufficial  |   2026         |
 |  7.0   |      ⏲️           |
 | beta   |    2024-2025       |
-|  2.0   |      ✔️             |
+|  3.0   |      ✔️            | #fix bugs more stable 
+|  2.0   |      ❗             |
 |  1.0   |      ✖             |
 
 ## Reporting a Vulnerability
