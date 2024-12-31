@@ -8,8 +8,9 @@ currently being supported with security updates.
 | Version | Supported          |
 | ------- | ------------------ |
 | ufficial  |   2024         |
-|  2.0   |      ⏲️           |
-| beta   |       2024         |
+|  7.0   |      ⏲️           |
+| beta   |    2024-2025       |
+|  2.0   |      ✔️             |
 |  1.0   |      ✖             |
 
 ## Reporting a Vulnerability
