@@ -6,11 +6,11 @@ Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
 | Version | Supported          |
-| ------- | ------------------ |
+| ------- | ------------------ || ------------------ |
 | ufficial  |   2026         |
 |  7.0   |      ⏲️           |
 | beta   |    2024-2025       |
-|  3.0   |      ✔️            | #fix bugs more stable 
+|  3.0   |      ✔️            || #fix bugs more stable |
 |  2.0   |      ❗             |
 |  1.0   |      ✖             |
 
