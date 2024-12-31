@@ -7,9 +7,9 @@ currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| ufficial  |   2026         |
+| ufficial  |   2025         |
 |  7.0   |      ⏲️           |
-| beta   |    2024-2025       |
+| beta   |    2024       |
 |  4.1   |       ⏲️           |
 | 3.8    |      ✔️ #fix bugs more stable            |
 |  3.0   |       ✖️           |
