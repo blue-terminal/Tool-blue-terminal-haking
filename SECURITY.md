@@ -6,7 +6,7 @@ Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
 | Version | Supported          |
-| ------- | ------------------ || ------------------ |
+| ------- | ------------------ |
 | ufficial  |   2026         |
 |  7.0   |      ⏲️           |
 | beta   |    2024-2025       |
