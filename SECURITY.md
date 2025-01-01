@@ -8,8 +8,9 @@ currently being supported with security updates.
 | Version | Supported          |
 | ------- | ------------------ |
 | ufficial  |   2025         |
-| 7.50    |       ⏲️        |
-|  7.0   |  ✔️fix  (RCE)           |  
+| 7.50    |      ⏲️       |
+| 7.50    |      ✔️       |
+|  7.0   |  ✖️fix  (RCE)           |  
 | beta   |    2024       |
 | 6.50    |   ❗🚨 vulnerable (RCE)         |
 |  6.1   |    ❗ fix bugs more stable  |
