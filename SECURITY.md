@@ -8,6 +8,8 @@ currently being supported with security updates.
 | Version | Supported          |
 | ------- | ------------------ |
 | ufficial  |   2025         |
+|  9.10   |       ⏲️          |
+|  8.50   |       ⏲️          |
 | 8.0    |     ✔️ fix full vulnerable      |
 | 7.50    |    ❗🚨 vulnerable       |
 | 7.50    |    ✖️       |
