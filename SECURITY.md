@@ -10,7 +10,7 @@ currently being supported with security updates.
 | ufficial  |   2025         |
 |  9.10   |       ⏲️          |
 |  8.50   |   ✔️ vulnerable     |
-| 8.0    |     ❌ fix  vulnerable hight     |
+| 8.0    |     ❌ fix  vulnerable high     |
 | 7.50    |    ❗🚨 vulnerable       |
 | 7.50    |    ✖️       |
 |  7.0   |  ✖️fix  (RCE)           |  
