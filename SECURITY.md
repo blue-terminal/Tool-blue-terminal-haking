@@ -9,7 +9,7 @@ currently being supported with security updates.
 | ------- | ------------------ |
 | ufficial  |   2025         |
 |  9.10   |       ⏲️          |
-|  8.90   | ✔️ fil full   vulnerable         |
+|  8.90   | ✔️ filx full   vulnerable         |
 |  8.50   |   ✔️ vulnerable  low   |
 | 8.0    |     ❌ fix  vulnerable high     |
 | 7.50    |    ❗🚨 vulnerable       |
