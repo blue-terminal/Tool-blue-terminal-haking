@@ -67,7 +67,7 @@ if utente==1:
     root.withdraw() 
     messagebox.showwarning("blue_terminal accesso negato", "Ora non torni più indietro")
     c = pyttsx3.init()
-    c.say(Fore.BLUE+"il tuo pc  e sorvegliato dalla CIA")
+    c.say(Fore.BLUE+"il tuo pc  e sorvegliato dalla webcam")
     c.runAndWait()
     engine = pyttsx3.init()
     messaggi="ora il tuo pc e in possesso della cia"
