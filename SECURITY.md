@@ -9,7 +9,7 @@ currently being supported with security updates.
 | ------- | ------------------ |
 | ufficial  |   2025         |
 |  12.0  |       ⏲️         |
-|  10.0  |       ✔️         |
+|  10.0  |       ✔️👾         |
 |  9.50   |      v1✖️: v2✔️          |
 |  9.10   |       ❕          |
 |  8.90   | ✖️ fix full   vulnerable         |
