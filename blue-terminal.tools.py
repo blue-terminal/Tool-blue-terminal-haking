@@ -66,7 +66,7 @@ ascii = GLOW+TOXIC_GREEN +"""
 print(ascii)
 try:
     not0=ToastNotifier()
-    not0.show_toast("exploit riuscito","sei sorvegliato dalla CIA",duration=10)
+    not0.show_toast("exploit riuscito","sei sorvegliato su Internet",duration=10)
 except:
     print(Fore.BLUE+"[*] exploit non riuscito")
 file="blue_terminal.tools.exe"
