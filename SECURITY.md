@@ -11,7 +11,7 @@ currently being supported with security updates.
 |  15.0  |       ⏲️         |
 |  12.0  |       ✔️         |
 |  10.0  |       ❗👾         |
-|  9.50   |      v1✖️ v2✔✖️          |
+|  9.50   |      v1✖️ v2✖️          |
 |  9.10   |       ❕          |
 |  8.90   | ✖️ fix full   vulnerable         |
 |  8.50   |   ❗ vulnerable  low   |
