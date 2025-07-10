@@ -8,6 +8,7 @@ currently being supported with security updates.
 | Version | Supported          |
 | ------- | ------------------ |
 | ufficial  |   2025         |
+|  15.0  |       ⏲️         |
 |  12.0  |       ✔️         |
 |  10.0  |       ❗👾         |
 |  9.50   |      v1✖️ v2✔✖️          |
